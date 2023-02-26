@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/game-agent-v2">
+    <Resource name="_DBlink" type="javax.sql.DataSource" auth="Container" 
+        driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver" 
+        url="jdbc:sqlserver://localhost:1433;databaseName=GAME_AGENT;instanceName=NNHATTHIEN"
+        username="sa" password="12345"/>
+</Context>
